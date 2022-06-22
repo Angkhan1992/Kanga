@@ -1,0 +1,84 @@
+name: kanga
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: any
+
+  google_sign_in: any
+  sign_in_with_apple: any
+  jwt_decode: any
+  video_player: any
+  chewie: any
+  flutter_svg: any
+  webview_flutter: any
+  http: any
+  shared_preferences: any
+  share: any
+  dotted_border: any
+  bubble_tab_indicator: any
+  package_info_plus: any
+  url_launcher: any
+  charts_flutter: any
+  flutter_vibrate: any
+  flutter_tts: any
+  speech_to_text: any
+  permission_handler: any
+  dotted_line: any
+  month_picker_dialog: any
+  screenshot: any
+  path_provider: any
+  cached_network_image: any
+  pull_to_refresh: any
+#  flutter_facebook_auth: any
+  image_picker: any
+  flutter_app_badger: any
+#  in_app_purchase: any
+  flutter_inapp_purchase: any
+  table_calendar: any
+  flutter_contacts: any
+#  flutter_inappwebview: any
+  youtube_player_flutter: any
+
+  socket_io_client: any
+  flutter_simple_dependency_injection: any
+  flutter_local_notifications: any
+
+  intl: any
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/videos/
+
+  fonts:
+    - family: Muli
+      fonts:
+        - asset: assets/fonts/Muli/Muli.ttf
+          weight: 400
+        - asset: assets/fonts/Muli/Muli-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Muli/Muli-Bold.ttf
+          weight: 700
+
+flutter_intl:
+  main_locale: en_US
+  enabled: true
